@@ -13,6 +13,10 @@ class Movie
         $this->poster = $_poster;
         $this->title = $_title;
     }
+
+    public function getTitle(){
+        return $this->title;
+    }
 }
 
 ?>
